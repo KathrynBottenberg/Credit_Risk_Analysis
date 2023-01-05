@@ -25,35 +25,35 @@ To do this, we split our sample data into 4 groups.</br>
 
 There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models (15 pt)
 ### - RandomOverSampler
-![image](photos/.png)</br>
+![image](photos/oversampling.png)</br>
 **balanced accuracy score:** 0.6447 </br>
 **precision:** *high risk* -> 0.01 *low risk* -> 1.00 </br>
 **recall:** *high risk* -> 0.70 *low risk* -> 0.59 </br>
 ### - SMOTE algorithms
-![image](photos/.png)</br>
-**balanced accuracy score:**</br>
-**precision:**</br>
-**recall:**</br>
+![image](photos/SMOTE.png)</br>
+**balanced accuracy score:** 0.6623 </br>
+**precision:** *high risk* -> 0.01 *low risk* -> 1.00 </br>
+**recall:** *high risk* -> 0.63 *low risk* -> 0.69 </br>
 ### - ClusterCentroids algorithm
-![image](photos/.png)</br>
-**balanced accuracy score:**</br>
-**precision:**</br>
-**recall:**</br>
+![image](photos/cluster.png)</br>
+**balanced accuracy score:** 0.5442 </br>
+**precision:** *high risk* -> 0.01 *low risk* -> 1.00 </br>
+**recall:** *high risk* -> 0.67 *low risk* -> 0.42 </br>
 ### - SMOTEENN algorithm
-![image](photos/.png)</br>
-**balanced accuracy score:**</br>
-**precision:**</br>
-**recall:**</br>
+![image](photos/SMOTEENN.png)</br>
+**balanced accuracy score:** 0.6531 </br>
+**precision:** *high risk* -> 0.01 *low risk* -> 1.00 </br>
+**recall:** *high risk* -> 0.73 *low risk* -> 0.57 </br>
 ### - BalancedRandomForestClassifier (bias reduction model)
-![image](photos/.png)</br>
-**balanced accuracy score:**</br>
-**precision:**</br>
-**recall:**</br>
+![image](photos/brf.png)</br>
+**balanced accuracy score:** 0.7885 </br>
+**precision:** *high risk* -> 0.03 *low risk* -> 1.00 </br>
+**recall:** *high risk* -> 0.70 *low risk* -> 0.87 </br>
 ### - EasyEnsembleClassifier (bias reduction model)
-![image](photos/.png)</br>
-**balanced accuracy score:**</br>
-**precision:**</br>
-**recall:**</br>
+![image](photos/eec.png)</br>
+**balanced accuracy score:** 0.9317 </br>
+**precision:** *high risk* -> 0.09 *low risk* -> 1.00 </br>
+**recall:** *high risk* -> 0.92 *low risk* -> 0.94 </br>
 ## Summary:
 There is a summary of the results (2 pt)
 There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)
