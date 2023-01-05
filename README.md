@@ -7,7 +7,9 @@
 - SMOTEENN algorithm
 - BalancedRandomForestClassifier (bias reduction model)
 - EasyEnsembleClassifier (bias reduction model)</br>
-  To do this, we split our sample data into 4 groups.</br>
+</br>
+
+To do this, we split our sample data into 4 groups.</br>
 **X_train:** A large portion of the data which we will use on our algorithms to make precitions. It includes all independent variables in the data set **EXCEPT** loan status.</br>
 **X_test:** A small portion of the data which will be used against the results to point out accuracy. It includes all independent variables in the data set **EXCEPT** loan status.</br>
 **Y_train:** A large portion of the data which has the dependent variable to the data independent variables in X_train and will assist in making accurate predictions in the model. This includes **ONLY** the loan status.</br>
