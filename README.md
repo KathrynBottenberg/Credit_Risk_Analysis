@@ -23,7 +23,6 @@ To do this, we split our sample data into 4 groups.</br>
   
 ## Results:
 
-There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models (15 pt)
 ### - RandomOverSampler
 ![image](photos/oversampling.png)</br>
 **balanced accuracy score:** 0.6447 </br>
