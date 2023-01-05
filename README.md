@@ -7,7 +7,6 @@
 - SMOTEENN algorithm
 - BalancedRandomForestClassifier (bias reduction model)
 - EasyEnsembleClassifier (bias reduction model)</br>
-
   To do this, we split our sample data into 4 groups.</br>
 **X_train:** A large portion of the data which we will use on our algorithms to make precitions. It includes all independent variables in the data set **EXCEPT** loan status.</br>
 **X_test:** A small portion of the data which will be used against the results to point out accuracy. It includes all independent variables in the data set **EXCEPT** loan status.</br>
@@ -24,32 +23,32 @@
 
 There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models (15 pt)
 ### - RandomOverSampler
-![image](photos/.png)
+![image](photos/.png)</br>
 **balanced accuracy score:**</br>
 **precision:**</br>
 **recall:**</br>
 ### - SMOTE algorithms
-![image](photos/.png)
+![image](photos/.png)</br>
 **balanced accuracy score:**</br>
 **precision:**</br>
 **recall:**</br>
 ### - ClusterCentroids algorithm
-![image](photos/.png)
+![image](photos/.png)</br>
 **balanced accuracy score:**</br>
 **precision:**</br>
 **recall:**</br>
 ### - SMOTEENN algorithm
-![image](photos/.png)
+![image](photos/.png)</br>
 **balanced accuracy score:**</br>
 **precision:**</br>
 **recall:**</br>
 ### - BalancedRandomForestClassifier (bias reduction model)
-![image](photos/.png)
+![image](photos/.png)</br>
 **balanced accuracy score:**</br>
 **precision:**</br>
 **recall:**</br>
 ### - EasyEnsembleClassifier (bias reduction model)
-![image](photos/.png)
+![image](photos/.png)</br>
 **balanced accuracy score:**</br>
 **precision:**</br>
 **recall:**</br>
