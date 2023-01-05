@@ -26,9 +26,9 @@ To do this, we split our sample data into 4 groups.</br>
 There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models (15 pt)
 ### - RandomOverSampler
 ![image](photos/.png)</br>
-**balanced accuracy score:**</br> 0.6447
-**precision:**</br> *high risk* -> 0.01 *low risk* -> 1.00
-**recall:**</br> *high risk* -> 0.70 *low risk* -> 0.59
+**balanced accuracy score:** 0.6447 </br>
+**precision:** *high risk* -> 0.01 *low risk* -> 1.00 </br>
+**recall:** *high risk* -> 0.70 *low risk* -> 0.59 </br>
 ### - SMOTE algorithms
 ![image](photos/.png)</br>
 **balanced accuracy score:**</br>
